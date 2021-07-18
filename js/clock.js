@@ -16,6 +16,7 @@ var interval = setInterval(function(){
     if(remTime <= 0)
     {
       clearInterval(interval);
-      document.getElementById("demo").innerHTML = "IT's TIME!"
+      var button_str = "<a href='https://rajdeepj1363.github.io/ashwini22bday/'><button class='pageBtn'>It's Time</button></a>";
+      document.getElementById("clock_div").innerHTML = button_str;
     }
     }, 1000);

@@ -1,6 +1,6 @@
-body
+html,body
 {
-    background-image: linear-gradient(to right,#A239EA,#FF94CC);
+    background-image: linear-gradient(45deg,#A239EA,#FF94CC) !important; 
 }
 p{
     font-family: 'Fredoka One', cursive;
@@ -31,4 +31,15 @@ p{
     transform: translate(-50%,-50%);
     -ms-transform: translateX(-50%) translateY(-50%);
     -webkit-transform: translate(-50%,-50%);
+}
+.pageBtn{
+    padding: 8px 30px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family:sans-serif;
+    color: #fff;
+    background-color: #7C83FD;
+    border-radius: 5px;
+    border-color:#fff;
+    border-width: 2px;
 }
